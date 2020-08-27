@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Speeding</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+    <meta name="description" content= "do you like speeding?">
+    <meta name= "viewport" content="width=device-width, initial-scale=1,shrink- to-1">
+
+    <div class="dropdown">
+      <button class="dropbtn">HOME</button>
+      <div class="dropdown-content">
+        <a href="camera">Static Speed Camera</a>
+        <a href="officer">Police officer Issued Speed Tickets</a>
+      </div>
+    </div>
+
+  </head>
+
+
+  <body>
+
+    <h1> DO YOU LIKE SPEEEEEEEDING? </h1>
+    <p> If you are caught driving over the speed limit, the amount of your infringement fine will depend on how far over the speed limit you are going.  But first, you have to be caught! The data is displayed where people are caught the most. So use this data to control where to speed and where not to. The lighter the region the more people have been caught in that region, so aviod those areas.
+    </p>
+
+<img class="regions" src="{{url_for('static', filename='regions.png') }}">
+
+
+
+    <div id="footer">
+    {{ disclaimer }}
+    </div>
+
+  </body>

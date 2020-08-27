@@ -1,0 +1,249 @@
+
+#imges {
+  position: relative;
+}
+
+#Northland {
+  position: absolute;
+  top: 5px;
+  left: 475px;
+  width: 500px;
+}
+
+#Auckland {
+  position: absolute;
+  top: 134px;
+  left: 551px;
+  width: 500px;
+}
+
+#Waikato {
+  position: absolute;
+  top: 210px;
+  left: 583px;
+  width: 500px;
+}
+
+#Bayofplenty {
+  position: absolute;
+  top: 265px;
+  left: 689px;
+  width: 500px;
+}
+
+#Eastcost {
+  position: absolute;
+  top: 318px;
+  left: 725px;
+  width: 500px;
+}
+
+#Manawatu {
+  position: absolute;
+  top: 390px;
+  left: 583px;
+  width: 500px;
+}
+
+#Wellington {
+  position: absolute;
+  top: 500px;
+  left: 600px;
+  width: 500px;
+}
+
+#Tasman {
+  position: absolute;
+  top: 730px;
+  left: 337px;
+  width: 500px;
+}
+
+#Canterbury {
+  position: absolute;
+  top: 810px;
+  left: 370px;
+  width: 500px;
+}
+
+#Southern {
+  position: absolute;
+  top: 1000px;
+  left: 180px;
+  width: 500px;
+}
+
+/*
+
+
+
+  #imges-small {
+    position: relative;
+  }
+
+  #sNorthland {
+    position: absolute;
+    top: 5px;
+    left: 475px;
+    width: 500px;
+  }
+
+  #sAuckland {
+    position: absolute;
+    top: 134px;
+    left: 551px;
+    width: 500px;
+  }
+
+  #sWaikato {
+    position: absolute;
+    top: 210px;
+    left: 583px;
+    width: 500px;
+  }
+
+  #sBayofplenty {
+    position: absolute;
+    top: 265px;
+    left: 689px;
+    width: 500px;
+  }
+
+  #sEastcost {
+    position: absolute;
+    top: 318px;
+    left: 725px;
+    width: 500px;
+  }
+
+  #sManawatu {
+    position: absolute;
+    top: 390px;
+    left: 583px;
+    width: 500px;
+  }
+
+  #sWellington {
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    width: 500px;
+  }
+
+  #sTasman {
+    position: absolute;
+    top: 730px;
+    left: 337px;
+    width: 500px;
+  }
+
+  #sCanterbury {
+    position: absolute;
+    top: 810px;
+    left: 370px;
+    width: 500px;
+  }
+
+  #sSouthern {
+    position: absolute;
+    top: 1000px;
+    left: 180px;
+    width: 500px;
+  }
+
+
+
+
+
+
+
+/*large*/
+/*
+#imges {
+  position: relative;
+}
+
+#Northland {
+  position: absolute;
+  top: 5px;
+  left: 1075px;
+  width: 700px;
+}
+
+#Auckland {
+  position: absolute;
+  top: 183px;
+  left: 1187px;
+  width: 700px;
+}
+
+#Waikato {
+  position: absolute;
+  top: 293px;
+  left: 1226px;
+  width: 700px;
+}
+
+#Bayofplenty {
+  position: absolute;
+  top: 368px;
+  left: 1370px;
+  width: 700px;
+}
+
+#Eastcost {
+  position: absolute;
+  top: 435px;
+  left: 1422px;
+  width: 700px;
+}
+
+#Manawatu {
+  position: absolute;
+  top: 543px;
+  left: 1223px;
+  width: 700px;
+}
+
+#Wellington {
+  position: absolute;
+  top: 697px;
+  left: 1250px;
+  width: 700px;
+}
+
+#Tasman {
+  position: absolute;
+  top: 1000px;
+  left: 960px;
+  width: 700px;
+}
+
+#Canterbury {
+  position: absolute;
+  top: 1114px;
+  left: 1009px;
+  width: 700px;
+}
+
+#Southern {
+  position: absolute;
+  top: 1380px;
+  left: 740px;
+  width: 700px;
+}
+
+
+/*mdediam*
+
+@media only screen and (min-width: 650px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media only screen and ( min-width: 1500px ) {
+  body {
+    background-color: red;
+  }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Speeding</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='nz.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+    <meta name="description" content= "do you like speeding?"/>
+    <meta name= "viewport" content="width=device-width, initial-scale=1,shrink- to-1"/>
+
+    <div class="dropdown">
+      <button class="dropbtn">HOME</button>
+      <div class="dropdown-content">
+        <a href="camera">Static Speed Camera</a>
+        <a href="officer">Police officer Issued Speed Tickets</a>
+      </div>
+
+      <div class="year-dropdown">
+        <button class="year">YEAR</button>
+        <div class="year-dropdown-content">
+          <a href="camera/y2009">2009</a>
+          <a href="camera/y2010">2010</a>
+          <a href="camera/y2011">2011</a>
+          <a href="camera/y2012">2012</a>
+          <a href="camera/y2013">2013</a>
+          <a href="camera/y2014">2014</a>
+          <a href="camera/y2015">2015</a>
+          <a href="camera/y2016">2016</a>
+          <a href="camera/y2017">2017</a>
+          <a href="camera/y2018">2018</a>
+          <a href="camera/y2019">2019</a>
+        </div>
+      </div>
+
+    </div>
+
+  </head>
+
+  <body>
+
+      <div id=images>
+        <img id="Northland" src="{{url_for('static', filename='northland.png') }}" style= "opacity:{{northland}}"/>
+        </img>
+        <img id="Auckland" src="{{url_for('static', filename='auckland.png') }}" style= "opacity:{auckland}}"/>
+        </img>
+        <img id="Waikato" src="{{url_for('static', filename='waikato.png') }}" style= "opacity:{{waikato}}"/>
+        </img>
+        <img id="Bayofplenty" src="{{url_for('static', filename='bayofplenty.png') }}" style= "opacity:{{bayofplenty}}"/>
+        </img>
+        <img id="Eastcost" src="{{url_for('static', filename='eastcost.png') }}" style= "opacity:{{eastcost}}"/>
+        </img>
+        <img id="Manawatu" src="{{url_for('static', filename='manawatu.png') }}" style= "opacity:{{manawatu}}"/>
+        </img>
+        <img id="Wellington" src="{{url_for('static', filename='wellington.png') }}" style= "opacity:{{wellington}}"/>
+        </img>
+        <img id="Tasman" src="{{url_for('static', filename='tasman.png') }}" style= "opacity:{{tasman}}"/>
+        </img>
+        <img id="Canterbury" src="{{url_for('static', filename='canterbury.png') }}" style= "opacity:{{canterbury}}"/>
+        </img>
+        <img id="Southern" src="{{url_for('static', filename='southern.png') }}" style= "opacity:{{southern}}"/>
+        </img>
+      </div>
+        </body>
+<!--
+      <div id=images-small>
+        <img id="sNorthland" src="{{url_for('static', filename='northland.png') }}" style= "opacity:{{northland}}"/>
+        </img>
+        <img id="sAuckland" src="{{url_for('static', filename='auckland.png') }}" style= "opacity:{auckland}}"/>
+        </img>
+        <img id="sWaikato" src="{{url_for('static', filename='waikato.png') }}" style= "opacity:{{waikato}}"/>
+        </img>
+        <img id="sBayofplenty" src="{{url_for('static', filename='bayofplenty.png') }}" style= "opacity:{{bayofplenty}}"/>
+        </img>
+        <img id="sEastcost" src="{{url_for('static', filename='eastcost.png') }}" style= "opacity:{{eastcost}}"/>
+        </img>
+        <img id="sManawatu" src="{{url_for('static', filename='manawatu.png') }}" style= "opacity:{{manawatu}}"/>
+        </img>
+        <img id="sWellington" src="{{url_for('static', filename='wellington.png') }}" style= "opacity:{{wellington}}"/>
+        </img>
+        <img id="sTasman" src="{{url_for('static', filename='tasman.png') }}" style= "opacity:{{tasman}}"/>
+        </img>
+        <img id="sCanterbury" src="{{url_for('static', filename='canterbury.png') }}" style= "opacity:{{canterbury}}"/>
+        </img>
+        <img id="sSouthern" src="{{url_for('static', filename='southern.png') }}" style= "opacity:{{southern}}"/>
+        </img>
+      </div>
+
+  </body>
